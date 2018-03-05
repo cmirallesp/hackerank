@@ -1,4 +1,4 @@
-package pangrams
+package strings
 
 import "testing"
 

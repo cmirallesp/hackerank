@@ -33,7 +33,8 @@ func main() {
 	}
 	//fmt.Printf("l => %d nq => %d str =>%s\n", l, n_queries, str)
 	for _, v := range queries {
-		result := hs.CountUniqueSubstrings(str, v.left, v.right)
+		//result := hs.ArrCountUniqueSubstrings(str, v.left, v.right)
+		result := hs.ForCountUniqueSubstrings(str, v.left, v.right)
 		fmt.Printf("%v\n", result)
 	}
 }

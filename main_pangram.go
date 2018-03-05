@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	p "hackerank/strings/pangrams"
+	p "hackerank/strings"
 	"os"
 )
 
